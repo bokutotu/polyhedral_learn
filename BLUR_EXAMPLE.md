@@ -24,9 +24,9 @@ for (int i = 1;   i < N-1; ++i)
 ---
 
 ## 2. パラメータ空間と反復ドメイン
-\[
-P = \{ (N,M)\in\mathbb Z_{>0}^2 \}
-\]
+$$
+P = { (N,M)\in\mathbb Z_{>0}^2 }
+$$
 
 \[
 \begin{aligned}
@@ -43,9 +43,9 @@ R_{\delta_i}= \bigl\{\,((i,j,0),(i+\delta_i,j,1))\bigr\}.
 ## 5. 融合可否のチェック
 
 ### 5.1 素朴融合候補  
-\[
-\Theta_{\text{naïve}}(i,j,\sigma)=\bigl(i,\;j,\;\sigma\bigr)
-\]
+$$
+\Theta_{naÏve}(i,j,\sigma)= (i, j, \sigma)
+$$
 
 | 依存 | \(\delta = \Theta(\text{sink})-\Theta(\text{source})\) | 判定 |
 |------|--------------------------------------|------|
